@@ -7,10 +7,6 @@ function agregarTarea(){
         div.className= "item";
         div.textContent= texto;
 
-        const span = document.createElement("button")
-        
-        span.textContent ="text";
-
         const botonEliminar = document.createElement("button")
         botonEliminar.textContent = "Eliminar"
         botonEliminar.className ="eliminar";
